@@ -29,6 +29,6 @@ function sumRecursion(nums) {
 console.log(sumRecursion(testNums));
 
 function sumTheSimpleWay(nums) {
-  return _.reduce(nums, function (memo, sec) { return memo + sec; });
+  return _.reduce(nums, function (memo, sec) { return memo + sec; }, 0);
 }
 console.log(sumTheSimpleWay(testNums));
